@@ -1,0 +1,137 @@
+.card_header{
+    display: grid;
+    grid-template-columns: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    margin-top: 30px;
+}
+
+.card_subheader1{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 10%;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.subscribe_type{
+    font-size: 16px;
+    color: gray;
+}
+
+.amount{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+hr{
+    width: 90%;
+}
+
+.card_list{
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: left;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.card_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    width: 90%;
+    height: 5vh;
+    background-color: #569AFE;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    outline: none;
+}
+
+.access_list{
+    list-style-type: none;
+}
+
+.nonaccess_list{
+    list-style-type: none;
+    color: gray;
+}
+
+.accesslist_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.fontawesome_nonaccess_style{
+    color: gray;
+}
+
+
+@media only screen and (min-width:720px){
+    .card_header{
+        display: grid;
+        grid-template-columns: 100%;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-sizing: border-box;
+        background-color: white;
+        width: 90%;
+        /* margin: auto; */
+        height: 70vh;
+        margin-top: 25%;
+    }
+
+    
+.card_subheader1{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 10%;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.card_list{
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.accesslist_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+hr{
+    height: 0.5%;
+}
+
+button{
+    width: 90%;
+    height: 5vh;
+    background-color: #569AFE;
+    /* margin-bottom: 10px; */
+    border-radius: 25px;
+    outline: none;
+}
+
+}
